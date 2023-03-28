@@ -4,7 +4,7 @@ Its purpose is to print formatted text to the standard output stream. Hence the 
 
 It takes the following unusual syntax:
 
-   printf(string format, items-to-format)
+   printf(string format, items-to-format);
 
 
 It can take one or more arguments, where the first argument is a string to be written. This string can contain special formatting codes which are replaced by items from the remainder of the arguments. For example, an integer can be printed using the "%d" formatting code, e.g.:
